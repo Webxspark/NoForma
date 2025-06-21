@@ -13,7 +13,7 @@ class momsController extends Controller
      */
     public function index(): Response
     {
-        return Inertia::render('demo');
+        return Inertia::render('moms/index');
     }
 
     /**
